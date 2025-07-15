@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "zentao-easytask-extension",
+  "version": "1.0",
+  "description": "Modify the first row of a task table on specific pages.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Modify Task"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://project.shfas96119.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
