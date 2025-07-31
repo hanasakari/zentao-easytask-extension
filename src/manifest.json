@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://project.shfas96119.com/*"
+        "*://project.***.com/*"
       ],
       "js": [
         "content.js"

@@ -1,0 +1,20 @@
+{
+  "name": "zentao-easytask-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to modify task table",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.312",
+    "typescript": "^5.8.2",
+    "vite": "^5.4.8",
+    "vite-plugin-static-copy": "^2.3.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "@types/node": "^22.13.14"
+  }
+}
